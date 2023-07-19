@@ -1,0 +1,33 @@
+#background {
+  background: linear-gradient(#03045e, #00b4d8);
+  color: #90e0ef;
+}
+
+.title {
+  text-align: center;
+  color: #0077b6;
+  font-size: 40px;
+  text-shadow: 2px 1px #caf0f8;
+}
+
+.fish__image {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.fishList {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fish__card {
+  margin: 20px;
+  border: 4px dotted #caf0f8;
+  padding: 10px;
+}
+
+.fish__name {
+  font-size: 30px;
+}
