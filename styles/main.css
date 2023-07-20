@@ -11,23 +11,37 @@
 }
 
 .fish__image {
-  width: 30%;
+  width: 300px;
   height: auto;
   border-radius: 50%;
 }
 
+.main_section {
+  display: flex;
+}
+
 .fishList {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
 }
 
 .fish__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 200px;
   margin: 20px;
   border: 4px dotted #caf0f8;
-  padding: 10px;
+  padding: 20px;
+  background: #f07167;
 }
 
 .fish__name {
   font-size: 30px;
+}
+
+.tip_card {
+  margin: 30px;
 }
